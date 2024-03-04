@@ -1,4 +1,4 @@
-package Vista;
+package com.poligran.view;
 
 import java.awt.EventQueue;
 
