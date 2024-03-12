@@ -1,4 +1,4 @@
-package com.poligran.controller;
+package co.edu.poli.crucigrama.controller;
 
 public class Main {
 

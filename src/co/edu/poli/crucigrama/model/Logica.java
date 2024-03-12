@@ -1,4 +1,4 @@
-package com.poligran.model;
+package co.edu.poli.crucigrama.model;
 
 public class Logica {
 

@@ -1,4 +1,4 @@
-package com.poligran.view;
+package co.edu.poli.crucigrama.view;
 
 import java.awt.EventQueue;
 
