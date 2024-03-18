@@ -72,6 +72,11 @@ public class Logica {
 			if (idPalabra - 1 == i) {
 				System.out.println("Ingrese la palabra: ");
 				palabra = teclado.next();
+				while (palabra == null | palabra.isEmpty() | !palabra.matches("[a-zA-Z]+")) {
+					System.err.println("No se pueden ingresar espacios, carácteres especiales ni números.");
+					System.out.println("Ingrese nuevamente la palabra: ");
+					palabra = teclado.next();
+				}
 				if (palabra.equalsIgnoreCase(palabras[i])) {
 					System.out.println("Correcto!");
 					mostrarPalabras(i);
@@ -79,6 +84,7 @@ public class Logica {
 				} else {
 					System.err.println("Palabra Incorrecta!");
 				}
+
 			}
 		}
 	}
