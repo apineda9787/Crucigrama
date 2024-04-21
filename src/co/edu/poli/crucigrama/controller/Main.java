@@ -3,10 +3,15 @@ package co.edu.poli.crucigrama.controller;
 import java.util.Scanner;
 
 import co.edu.poli.crucigrama.model.*;
+import conexionBD.Conexion;
 
 public class Main {
 
 	public static void main(String[] args) {
+		
+
+		Conexion conexion= new Conexion();
+		conexion.conectar();
 
 		Logica crucigrama = new Logica();
 		int cerrar = 0;
